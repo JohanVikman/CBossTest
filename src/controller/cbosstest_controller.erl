@@ -1,6 +1,6 @@
--module(cboss_greeting_controller).
+-module(cbosstest_controller).
 -compile(export_all).
  
 hello('GET', []) ->
-	{output, <strong>Testing out Chicago BOSS!!</strong>}.
+	{output, "<strong>Testing out Chicago BOSS!!</strong>"}.
 
